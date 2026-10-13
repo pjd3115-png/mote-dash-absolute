@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "_table": { "label": "Claim", "plural": "Claims", "icon": "BookCheck" },
+    "Name": { "type": "Text", "label": "Claim", "required": true },
+    "verdict_c": { "type": "Picklist", "label": "Verdict", "values": "Supported,Contradicted" },
+    "topic_c": { "type": "Picklist", "label": "Topic", "values": "Health,Scams,Economy,Weather,Technology,Politics" },
+    "keywords_c": { "type": "Text", "label": "Keywords" },
+    "explanation_c": { "type": "MultilineText", "label": "Explanation" },
+    "reviewedOn_c": { "type": "Date", "label": "Reviewed On" }
+  },
+  "records": [
+    {
+      "Id": "e1a7c2d4-6b35-4f98-8a01-3d9e5f7b2c60",
+      "Name": "Drinking hot water cures viral infections",
+      "verdict_c": "Contradicted",
+      "topic_c": "Health",
+      "keywords_c": "hot water, cure, viral, infection",
+      "explanation_c": "Warm drinks can soothe a sore throat, but no evidence shows that hot water cures or prevents viral infections. Treat messages claiming a simple home cure with suspicion.",
+      "reviewedOn_c": "2026-09-18",
+      "Owner": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "ModifiedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedOn": "2026-09-18T09:00:00Z",
+      "ModifiedOn": "2026-09-18T09:00:00Z"
+    },
+    {
+      "Id": "f2b8d3e5-7c46-4a09-9b12-4e0f6a8c3d71",
+      "Name": "Government gives free laptops to students who forward a message",
+      "verdict_c": "Contradicted",
+      "topic_c": "Scams",
+      "keywords_c": "free laptops, students, forward, message",
+      "explanation_c": "Official schemes are announced through government notifications, never through chain messages. Forward-to-claim offers are a standard data-harvesting scam.",
+      "reviewedOn_c": "2026-09-22",
+      "Owner": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "ModifiedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedOn": "2026-09-22T10:30:00Z",
+      "ModifiedOn": "2026-09-22T10:30:00Z"
+    },
+    {
+      "Id": "0a3c9e4f-8d57-4b1a-8c23-5f1a7b9d4e82",
+      "Name": "India's GDP estimates are published every quarter",
+      "verdict_c": "Supported",
+      "topic_c": "Economy",
+      "keywords_c": "GDP, quarter, estimates, published",
+      "explanation_c": "The National Statistical Office releases quarterly GDP estimates, followed by revisions. Check the official data portal for the latest release date.",
+      "reviewedOn_c": "2026-09-25",
+      "Owner": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "ModifiedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedOn": "2026-09-25T11:15:00Z",
+      "ModifiedOn": "2026-09-25T11:15:00Z"
+    },
+    {
+      "Id": "1b4d0f50-9e68-4c2b-9d34-6a2b8c0e5f93",
+      "Name": "Monsoon withdrawal from Maharashtra begins in October",
+      "verdict_c": "Supported",
+      "topic_c": "Weather",
+      "keywords_c": "monsoon, withdrawal, Maharashtra, October",
+      "explanation_c": "The southwest monsoon normally starts retreating from western India around October, although the exact date shifts each year.",
+      "reviewedOn_c": "2026-10-01",
+      "Owner": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "ModifiedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedOn": "2026-10-01T08:45:00Z",
+      "ModifiedOn": "2026-10-01T08:45:00Z"
+    },
+    {
+      "Id": "2c5e1a61-0f79-4d3c-8e45-7b3c9d1f6a04",
+      "Name": "5G towers spread the coronavirus",
+      "verdict_c": "Contradicted",
+      "topic_c": "Technology",
+      "keywords_c": "5G, towers, coronavirus, spread",
+      "explanation_c": "Viruses spread between people, not through radio waves. Mobile networks cannot transmit or carry a virus.",
+      "reviewedOn_c": "2026-10-03",
+      "Owner": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "ModifiedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedOn": "2026-10-03T14:00:00Z",
+      "ModifiedOn": "2026-10-03T14:00:00Z"
+    },
+    {
+      "Id": "3d6f2b72-1a8a-4e4d-9f56-8c4d0e2a7b15",
+      "Name": "Ordinary UPI payments between people are free",
+      "verdict_c": "Supported",
+      "topic_c": "Economy",
+      "keywords_c": "UPI, free, payments, people",
+      "explanation_c": "Standard peer-to-peer UPI transfers carry no charge for the sender. Rules for merchant payments and wallets can differ, so check the payment app's notice.",
+      "reviewedOn_c": "2026-10-08",
+      "Owner": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "ModifiedBy": { "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4", "Name": "Demo Admin" },
+      "CreatedOn": "2026-10-08T12:20:00Z",
+      "ModifiedOn": "2026-10-08T12:20:00Z"
+    }
+  ]
+}

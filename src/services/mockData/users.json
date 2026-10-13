@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "Name": { "type": "Text", "label": "Full Name", "required": true },
+    "Email": { "type": "Email", "label": "Email Address", "required": true },
+    "FirstName": { "type": "Text", "label": "First Name", "required": true },
+    "LastName": { "type": "Text", "label": "Last Name", "required": true },
+    "password": { "type": "Text", "label": "Password", "required": true },
+    "AvatarUrl": { "type": "Text", "label": "Avatar Url" }
+  },
+  "records": [
+    {
+      "Id": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4",
+      "userId": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4",
+      "companyId": "c64a0e91-2d7b-4f85-b3e9-71a8d5c2f06b",
+      "Name": "Demo Admin",
+      "FirstName": "Demo",
+      "LastName": "Admin",
+      "Email": "admin@demo.app",
+      "password": "demo1234",
+      "AvatarUrl": null,
+      "IsOwner": true,
+      "accounts": [
+        {
+          "userId": "3b7e1f52-9a4d-4c68-8e21-6d05fb9a73c4",
+          "companyId": "c64a0e91-2d7b-4f85-b3e9-71a8d5c2f06b",
+          "companyName": "TruthScan Desk",
+          "companyUserId": 1,
+          "isOwner": true,
+          "profile": { "id": 1, "name": "Admin_c" },
+          "companyOwner": { "name": "Demo Admin", "avatarUrl": null, "email": "admin@demo.app" }
+        }
+      ]
+    },
+    {
+      "Id": "8d29c4a6-17fe-4b53-a0d8-5e3c9b71f246",
+      "userId": "8d29c4a6-17fe-4b53-a0d8-5e3c9b71f246",
+      "companyId": "c64a0e91-2d7b-4f85-b3e9-71a8d5c2f06b",
+      "Name": "Demo Reviewer",
+      "FirstName": "Demo",
+      "LastName": "Reviewer",
+      "Email": "member@demo.app",
+      "password": "demo1234",
+      "AvatarUrl": null,
+      "IsOwner": false,
+      "accounts": [
+        {
+          "userId": "8d29c4a6-17fe-4b53-a0d8-5e3c9b71f246",
+          "companyId": "c64a0e91-2d7b-4f85-b3e9-71a8d5c2f06b",
+          "companyName": "TruthScan Desk",
+          "companyUserId": 2,
+          "isOwner": false,
+          "profile": { "id": 2, "name": "Member_c" },
+          "companyOwner": { "name": "Demo Admin", "avatarUrl": null, "email": "admin@demo.app" }
+        }
+      ]
+    }
+  ]
+}
